@@ -1,0 +1,172 @@
+@media(max-width:53.5rem){
+.nav__links{
+    background-color: rgb(240, 236, 231);
+   position: absolute;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding-right: 4rem;
+    border-radius: 2rem;
+    padding: 3rem;
+    top: 3%;
+    left: 60%;
+    gap: 3rem;
+    
+}
+.cross{
+    position: absolute;
+   top: 0;
+   font-size: 2rem;
+    left: 76%;
+    padding: 1rem;
+    background: none;
+    border: none;
+    
+}
+.nav__link:link{
+    font-size: 2rem;
+}
+.hide{
+    display: none;
+}
+.btnhide{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    background-color: blue;
+    border-radius: 2rem;
+}
+.head__img{
+    height: 30rem;
+    justify-content: center;
+    align-self: center;
+}
+.features__feature{
+    width: 100%;
+}
+.features__img{
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+}
+.features{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.section__title{
+    margin-top: 1rem;
+}
+.cross{
+    display: block;
+   }
+}
+
+@media(max-width:37.5rem){
+html{
+    font-size: 60%;
+}
+.modal{ 
+    padding: 2rem 3rem;
+}
+h1{
+    font-size: 4rem;
+}
+.cross{
+    display: block;
+   }
+}
+
+
+@media(max-width:31.5rem){
+h1{
+    text-align: center;
+}
+    .header__title{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    .head__img{
+        width: 15rem;
+        
+    }
+    .section__title{
+        margin-top: 6rem;
+    }
+    .section{
+        padding-top: 1rem;
+        margin-top: 10rem;
+        padding-bottom: 1rem;
+    }
+    #section--2{
+        margin-top: 1rem;
+    }
+    .section__header{
+        font-size: 3rem;
+    }
+    .operations__tab{
+        padding: 8px;
+
+    }
+    .operations__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .section--sign-up{
+        margin-top: 2rem;
+        padding: 2rem;
+    }
+    .section--sign-up .btn{
+        padding: 1rem;
+    }
+    .footer{
+        padding-top: 3rem;
+    }
+    .footer__nav{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 3rem;
+    }
+   .logo{
+    width: 5rem;
+   }
+   .btnhide{
+    font-size: 1.5rem;
+   }
+   .nav{
+    gap: 16rem;
+   }
+   .btnn{
+    padding: 0.5rem;
+   }
+   h4{
+    text-align: center;
+    color: rgb(118, 118, 129);
+    font-style: oblique;
+   }
+   .modal__header{
+    margin: 0;
+    font-size: 2rem;
+   }
+   .modal{
+    top: 60%;
+   }
+   .cross{
+    display: block;
+   }
+   #section--3{
+    margin-top: 2rem;
+   }
+   .nav__links{
+    left: 50%;
+   }
+   .testimonial__text{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+   }
+}
